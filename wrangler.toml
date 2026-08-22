@@ -17,10 +17,10 @@ CACHE_MAX_AGE = "1800"
 
 # Analytics Engine for request logging
 [[analytics_engine_datasets]]
-binding = "ANALYTICS"
-dataset = "github_readme_stats"
+binding = "ANALYTICS_ENGINE"
+dataset = "github_stats"
 
 # KV namespace for cross-datacenter caching (stale-if-error fallback)
 [[kv_namespaces]]
-binding = "SVG_CACHE"
+binding = "ANALYTICS_ENGINE"
 id = "699e00110ab04c8b881692b7c243479b"
