@@ -1,3 +1,4 @@
+<!-- Cloudflare deployment -->
 # github-readme-stats-worker
 
 Self-hosted GitHub readme stats cards on Cloudflare Workers. Ported from [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) @ [`5df91f9`](https://github.com/anuraghazra/github-readme-stats/commit/5df91f9bfa89c356a55cbb3c2bbc164fdbf94a86).
