@@ -20,3 +20,6 @@ CACHE_MAX_AGE = "1800"
 binding = "ANALYTICS_ENGINE"
 dataset = "github_stats"
 
+[observability]
+enabled = true
+head_sampling_rate = 1
