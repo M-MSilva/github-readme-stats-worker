@@ -20,7 +20,3 @@ CACHE_MAX_AGE = "1800"
 binding = "ANALYTICS_ENGINE"
 dataset = "github_stats"
 
-# KV namespace for cross-datacenter caching (stale-if-error fallback)
-[[kv_namespaces]]
-binding = "SVG_CACHE"
-id = "699e00110ab04c8b881692b7c243479b"
